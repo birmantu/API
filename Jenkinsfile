@@ -21,7 +21,7 @@ pipeline {
         }
 
 
-        stage ('Deployment Stage') {
+        stage ('Install Stage') {
             steps {
                 withMaven(maven : 'apache-maven-3.6.0') {
                     bat 'mvn install'
