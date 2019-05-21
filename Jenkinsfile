@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     stages {
-        stage ('Compile Stage') {
+        stage ('Compile Stage1') {
 
             steps {
                 withMaven(maven : 'apache-maven-3.6.0') {
@@ -11,7 +11,7 @@ pipeline {
             }
         }
 
-        stage ('Testing Stage') {
+        stage ('Testing Stage2') {
 
             steps {
                 withMaven(maven : 'apache-maven-3.6.0') {
@@ -21,7 +21,7 @@ pipeline {
         }
 
 
-        stage ('Install Stage') {
+        stage ('Install Stage3') {
             steps {
                 withMaven(maven : 'apache-maven-3.6.0') {
                     bat 'mvn install'
