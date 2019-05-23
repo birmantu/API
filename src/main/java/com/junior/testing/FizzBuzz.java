@@ -8,7 +8,7 @@ public class FizzBuzz {
         if (number % 3 == 0) return "Fizz";
         if (number % 5 == 0) return "Buzz";
         if (number % 7 == 0) return "Junn";
-        if (number % 15 == 0) return "Junn";:
+        if (number % 11 == 0) return "Junn";
         if (number % 13 == 0) return "Junn";
         if (number % 15 == 0) return "Junn";
         if (number % 17 == 0) return "Junn";
