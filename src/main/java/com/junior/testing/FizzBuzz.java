@@ -13,6 +13,7 @@ public class FizzBuzz {
         if (number % 15 == 0) return "Junn";
         if (number % 17 == 0) return "Junn";
         if (number % 19 == 0) return "Junn";
+        if (number % 21 == 0) return "Junn";
 
         return String.valueOf(number);
     }
